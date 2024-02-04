@@ -30,7 +30,7 @@ FetchContent_MakeAvailable(googletest)
 enable_testing()
 
 # Fügen Sie der ausführbaren Datei dieses Projekts eine Quelle hinzu.
-add_executable (gtest_csv "gtest_csv.cpp" "gtest_csv.h")
+add_executable (gtest_csv "gtest_csv.cpp" "gtest_csv.h" "CSVReader.h" "CSVReader.cpp" "CSVData.cpp")
 
 target_link_libraries(
   gtest_csv
